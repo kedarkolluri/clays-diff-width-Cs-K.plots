@@ -35,7 +35,7 @@ data.cs*:
 One does not have to care for these
 
 collate.data.*: (collate.data.0 is for 0% Cs)
-First column is the width. 20 is 0 Angstorm deviant from ideal illite. 40 is +2.0 angstorm deviant. Hence the actual distance is given by (d-20)/10
+First column is the width. 20 is 0 Angstorm deviant from ideal illite. 40 is +1.0 angstorm deviant. Hence the actual distance is given by (d-20)/10
 
 collate_all.data
 Collates the interlayer distance for which energy is the minimum for a given concentration. As before that interlayer distance is (d-20)/10
