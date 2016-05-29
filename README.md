@@ -26,6 +26,7 @@ process_6_20.bash can have the first line as "for file in {16..20}"
 
 Please run post_process.bash only after all 20 replicas are done so that proper statistics are computed
 
+*NOTE: process.bash uses lammps installation. Please search and replace `lmp_git_openmpi_021415` in process.bash file*
 
 ## post_process.bash ##
 
