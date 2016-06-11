@@ -1,4 +1,15 @@
-for rootfile in {1..20}
+start=1
+end=20
+if [ "$#" -eq 2 ]
+then
+  echo "input parameters being used for start and end"
+  echo "no checks are made about the parameters"
+  echo "This check merely to allow backward compatability, not general purpose utility code"
+  start=$1
+  end=$2
+fi
+
+for rootfile in $(seq $start $end)
 do
   if [ -d r$rootfile ]
   then
